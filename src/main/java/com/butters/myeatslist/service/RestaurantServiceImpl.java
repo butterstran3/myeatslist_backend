@@ -33,10 +33,4 @@ public class RestaurantServiceImpl implements RestaurantService {
     public void deleteRestaurant(Long id) {
         restaurantRepository.deleteById(id);
     }
-
-//    @Override
-//    public Optional<Restaurant> updateRestaurant(Long id, Restaurant restaurant) {
-//        Optional<Restaurant> oldScore = restaurantRepository.findById(id);
-//        return oldScore;
-//    }
 }

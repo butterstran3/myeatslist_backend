@@ -11,5 +11,4 @@ public interface RestaurantService {
     List<Restaurant> getAllRestaurants();
     Optional<Restaurant> getRestaurant(Long id);
     void deleteRestaurant(Long id);
-//    Optional<Restaurant> updateRestaurant(Long id, Restaurant restaurant);
 }

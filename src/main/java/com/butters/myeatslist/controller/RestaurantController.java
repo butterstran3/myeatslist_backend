@@ -11,6 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/restaurant")
+@CrossOrigin
 public class RestaurantController {
 
     @Autowired
@@ -36,9 +37,4 @@ public class RestaurantController {
     public void deleteRestaurant(@PathVariable Long id) {
         restaurantService.deleteRestaurant(id);
     }
-
-//    @PutMapping("/update/{id}")
-//    public Restaurant updateRestaurant(@RequestBody @Valid Restaurant restaurant, @PathVariable Long id) {
-//
-//    }
 }
